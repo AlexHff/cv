@@ -1,2 +1,2 @@
 # cv
-Simple LaTeX template for a resume
+CV is LaTeX template for a CV (Curriculum Vitae) or Résumé.
