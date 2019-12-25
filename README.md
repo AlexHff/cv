@@ -1,5 +1,5 @@
-# cv
-CV is LaTeX template for a CV (Curriculum Vitae) or Résumé.
+# resume
+LaTeX template for a CV (Curriculum Vitae) or Résumé.
 
-Author : Sourabh Bajaj
+Author : Sourabh Bajaj\
 License : MIT
