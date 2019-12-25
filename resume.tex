@@ -1,0 +1,294 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\color{blue}
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large \href{https://github.com/AlexHff}{Alexander Hoffmann}}} & Email : \href{mailto:alhffn@gmail.com}{alhffn@gmail.com}\\
+  Looking for a 6 months software engineering internship during Summer 2021 & Mobile : +33 6 76 02 20 22\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ECE Paris}{France}
+      {Master of Science in Computer Science}{Sept 2016 -- Sept 2021 (Expected)}
+    \resumeSubheading
+      {University of California San Diego}{CA, USA}
+      {Extension program in Computer Science and Engineering}{Sept 2018 -- Dec 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Junior Software Developer}{Düsseldorf, Germany}
+      {Sadnacaya GmbH \& Co. KG}{Aug 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Creation of a Python script to upload a file onto an OCR web application and retrieve it as a PDF.}
+        \resumeItem{}
+          {Configuration of a Manjaro VM onto a QNAP NAS to automatically back up mission-critical data on Write-Once-Read-Many archive storage.}
+        \resumeItem{}
+          {Implementation of a OPNSense Firewall onto a virtual machine.}
+        \resumeItem{}
+          {Creation of a bash script to send mail given a receiver address and an attachment via LetterXpress API.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Junior Software Qualification Consultant}{Düsseldorf, Germany}
+      {Ayacandas GmbH}{May 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Development of an exchange platform for hospitals and other medical institutions.}
+        \resumeItem{}
+          {Quality control of the system to ensure that the software solution developed meets the requirements.}
+        \resumeItem{}
+          {Analysis of the anomalies, documentation of the tests carried out and progress report on the test campaign.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Developer Intern}{Paris, France}
+      {Préfecture de police de Paris}{Jul 2019 - Aug 2019}
+      \resumeItemListStart
+        \resumeItem{}
+          {Development of a Java application to control backups and automatically notify system administrators.}
+        \resumeItem{}
+          {Implementing new features to local web applications to meet user demands and improve overall performance.}
+        \resumeItem{}
+          {Migration of a Linux server.}
+      \resumeItemListEnd
+
+\iffalse
+    \resumeSubheading
+      {Assistant IT Administrator}{Düsseldorf, Germany}
+      {Baum Reiter \& Collegen}{July 2018 - Aug 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Participation in the creation and automation of complaints.}
+        \resumeItem{}
+          {Assistance and advice of users on site.}
+        \resumeItem{}
+          {Supervision of cloud platforms.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Student Trainee in IT Services}{Mohneim, Germany}
+      {Sinell EDV Zubehör GmbH}{Jan 2018 - Feb 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Observation in the design, installation and maintenance of high-end firewall, client-server and VPN solutions.}
+        \resumeItem{}
+          {Repairs on laptops / PCs / server systems.}
+        \resumeItem{}
+          {Networking of high-end printers.}
+        \resumeItem{}
+          {Mission as Computer Maintenance Technician at the Cologne Hospital.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Factory Worker}{Hilden, Germany}
+      {Gebr. Wielpütz GmbH \& Co. KG}{July 2016 - Aug 2016}
+      \resumeItemListStart
+        \resumeItem{}
+          {Machine operation of automated machines.}
+        \resumeItem{}
+          {Quality control, assembly, test.}
+        \resumeItem{}
+          {Transport activities.}
+        \resumeItem{}
+          {Cleaning work / machine maintenance.}
+      \resumeItemListEnd
+\fi
+
+  \resumeSubHeadingListEnd  
+  
+%-----------VOLUNTEER-----------------
+\section{Volunteer work}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Treasurer}{Paris, France}
+      {Genius Campus Eiffel}{Apr 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Holding a volunteer position as a treasurer at the entrepreneurship club at ECE Paris.}
+        \resumeItem{}
+          {Overseeing and presenting budgets, accounts and financial statements to the management committee.}
+        \resumeItem{}
+          {Maintaining books and records for the last fiscal year.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheading
+      {Docsight (Java 8)}{}
+      {A tool for analyzing scanned files and sort them by content.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Used OpenCV to determine whether a file is an image or a text document.}
+        \resumeItem{}
+          {Implemented Tesseract OCR to recognize text from scanned documents.}
+        \resumeItem{}
+          {Created image recognition to sort files by content.}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {School Management Tool (Java Spring MVC) \href{https://github.com/AlexHff/school-management-system}{\texttt{[github]}}}{}
+      {A web-based, extensible platform for managing schools.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Used Hibernate to implement a relational database.}
+        \resumeItem{}
+          {Created dynamic search engine using Elasticsearch.}
+      \resumeItemListEnd
+          
+\iffalse
+  \resumeSubheading
+      {Ecezon (HTML5, CSS, PHP Laravel) \href{https://github.com/AlexHff/laravel-eCommerce}{\texttt{[github]}}}{}
+      {A free, open-source e-commerce platform written in PHP based on Laravel.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Implemented online payments with Stripe.}
+        \resumeItem{}
+          {Created dynamic search engine using Algolia.}
+        \resumeItem{}
+          {Other features such as automated mailing, permission management, basic security elements.}
+      \resumeItemListEnd
+      
+  \resumeSubheading
+      {Watermelon (ReactJS)}{}
+      {Web-based payment app.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Reproduced in a simplified way the Pumpkin app (payment app between individuals).}
+        \resumeItem{}
+          {Implemented user management, deposits, withdrawals, and money transfers between users.}
+      \resumeItemListEnd
+      
+  \resumeSubheading
+      {Mini Router (C/C++) \href{https://github.com/AlexHff/minirouter}{\texttt{[github]}}}{}
+      {A free, open-source e-commerce platform written in PHP based on Laravel.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Created a simple router given a static network topology and routing table.}
+        \resumeItem{}
+          {Can process Ethernet packets including ARP, TCP/UDP, HTTP and ICMP.}
+        \resumeItem{}
+          {Implemented ping and traceroute to and through the Internet router.}
+      \resumeItemListEnd
+      
+  \resumeSubheading
+      {Peer-to-Peer Messenger (C/C++)}{}
+      {A Linux/Mac application for network communication between two or more peers.}{}
+      \resumeItemListStart
+        \resumeItem{}
+          {Implemented sliding window protocol (SWP).}
+        \resumeItem{}
+          {CRC-8 error detection and correction code.}
+      \resumeItemListEnd
+\fi
+    
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+ 	\resumeSubItem{Languages}
+   		{: C, C++, Java, Python, SQL, \LaTeX, HTML, CSS, PHP, UML.}
+   	\resumeSubItem{OS}
+   		{: Microsoft Windows, Linux.}
+   	\resumeSubItem{Software \& Technology}
+   		{: Microsoft Office Suite, VSCode, Eclipse, vim, Wireshark, Github, Maven, Oracle VM VirtualBox, GParted, OPNsense, REST API, Hibernate, Elasticsearch.}
+ \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+\section{Skills \& Interests}
+ \resumeSubHeadingListStart
+ 	\resumeSubItem{Languages}
+   		{: French (mother tongue), German (mother tongue), English (fluent), Spanish (notions).}
+   	\resumeSubItem{Actuarial science}
+   		{: applying mathematical and statistical methods to assess risk in finance.}
+   	\resumeSubItem{Hobbies}
+   		{: cycling, athletics, chess.}
+ \resumeSubHeadingListEnd
+
+\end{document}
