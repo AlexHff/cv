@@ -58,6 +58,13 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeSubheadingz}[2]{
+  \vspace{-1pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -76,33 +83,33 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large \href{https://hoffmann.ai}{Alexander Hoffmann}}} & Email : \href{mailto:alexander@hoffmann.ai}{alexander@hoffmann.ai}\\
-  Passionate Software Engineer with Infrastructure expertise. & Mobile : +33 6 76 02 20 22
+  Passionate Software Engineer with Infrastructure expertise. & Mobile : +33 6 21 19 56 74
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
 \section{Professional experience}
   \resumeSubHeadingListStart
-  
-    \resumeSubheading
-    {Sadnacaya GmbH \& Co. KG}{Düsseldorf, Germany}
-    {Managing Director}{2022 -- Present}
-    \resumeItemListStart
-      \resumeItem{}
-        {Services in the field of management and personnel consulting, in interim and hospital management}
-      \resumeItem{}
-        {Consulting during the reorganization of the IT infrastructure in a clinic with around 1500 beds.}
-    \resumeItemListEnd
       
     \resumeSubheading
     {Société Générale}{Paris, France}
-    {Software Engineer}{2021 -- Present}
+    {DevOps Engineer}{2022 -- Present}
     \resumeItemListStart
       \resumeItem{}
-        {Full-time software engineer in the Société Générale advanced development team for Big Data applications.}
+        {Designing, building, operating and maintaining modern data analytics platforms in the cloud and on-premise.}
       \resumeItem{}
-        {Building a REST API to programmatically manage Hadoop clusters. It provides configuration and service lifecycle management, service health metrics, and setting up high availability and decommissioning.}
+        {Reviewing, auditing and troubleshooting existing solutions and system architectures.}
       \resumeItem{}
-        {Working on SSO integration, clustering interface support, and appliance stack management.}
+        {Ensuring high availability of key data systems including taking on-call responsibility.}
+    \resumeItemListEnd
+    \resumeSubheadingz
+    {Software Engineer}{2021 -- 2022}
+    \resumeItemListStart
+      \resumeItem{}
+        {Built a REST API to programmatically manage Hadoop clusters. It provides configuration and service lifecycle management, service health metrics, and setting up high availability and decommissioning.}
+      \resumeItem{}
+        {Worked on SSO integration, clustering interface support, and appliance stack management.}
+      \resumeItem{}
+        {Automated infrastructure provisioning, DevOps, and continuous integration/delivery using workflow orchestration tools.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -110,11 +117,11 @@
     {Founder \& Software Engineer}{2020 -- Present}
     \resumeItemListStart
       \resumeItem{Spotmydive}
-        {Write client-side code (GatsbyJS) for web-based high-volume production application (120,000 unique visitors/mo). Improve conversion rate and overall SEO by 20\%.}
-      \resumeItem{Orange}
-        {Design, create and maintain a scalable web-based dashboard application using TypeScript and MongoDB for back-end and ReactJS for front-end. Reduce customer acquisition cost by 5\%.}
-      \resumeItem{GEFCO}
-        {Design, develop, test, deploy, maintain and improve front-end (ReactJS) and back-end (C\#) for highly available web application. Improve work performance and productivity by 10\%.}
+        {Wrote client-side code for web-based high-volume production application (120,000 unique visitors/mo). Improved conversion rate by 20\%.}
+      \resumeItem{Orange Bank}
+        {Designed, created and maintained a scalable web-based customer management app (TypeScript). Reduced customer acquisition cost by 10\%.}
+      \resumeItem{CEVA Logistics}
+        {Designed, developed, and maintained the front-end (ReactJS) and back-end (C\#) for highly available web application. Improved QHSE compliance and monitoring by 50\%.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -128,7 +135,7 @@
     \resumeItemListEnd
       
     \resumeSubheading
-    {Ayacandas GmbH}{Düsseldorf, Germany}
+    {Sadnacaya GmbH \& Co. KG}{Düsseldorf, Germany}
     {Software Developer}{2018 -- 2021}
     \resumeItemListStart
       \resumeItem{}
@@ -296,7 +303,7 @@
    		{: MongoDB, MySQL, PostgreSQL.}
 
    	\resumeSubItem{DevOps \& InfraOps}
-   		{: Airflow, Ansible, Docker, Git, Jenkins, Kubernetes, Vagrant.}
+   		{: Airflow, Ansible, Docker, Git, Jenkins, Vagrant.}
 
    	\resumeSubItem{Web technologies}
    		{: AWS, CSS, HTML, NodeJS, ReactJS, Shopify, Wordpress.}
